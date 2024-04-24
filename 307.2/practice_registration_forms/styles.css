@@ -1,0 +1,15 @@
+body{
+    margin:300px
+}
+form{
+    padding:10px;
+    border: 10px solid dimgrey;
+    align-self: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#email{
+    padding-top:10px;
+}
+#password{
+    padding-bottom:10px;
+}
