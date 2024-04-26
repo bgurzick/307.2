@@ -1,0 +1,84 @@
+.topnav {
+  background-color: #3e9cee;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+body, html {
+  height: 100%;
+}
+
+
+.hero-image {
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://pics.craiyon.com/2023-09-23/fca1d3ab165740908dd3a200d7ecb0a8.webp");
+
+height:100%;
+width:100%;
+
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+.hero-text {
+text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+}
+
+.button {
+  align-items: center;
+  padding-top: 10px;
+ 
+}
+
+form{
+  color:white;
+  padding:10px;
+  border: 3px solid #04aa6d;
+  text-align:center;
+}
+#email{
+  padding-top:10px;
+}
+#password{
+  padding-bottom:10px;
+}
+
+#leastFavoriteClown{
+  padding-top:10px;
+}
+
+h1{
+  color:white;
+  text-align:center;
+}
+
+.deceased{
+  color:black;
+  font-size: x-large;
+  text-align:center;
+  padding-top:25%;
+}
